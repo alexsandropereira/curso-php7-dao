@@ -22,10 +22,19 @@ require_once("config.php");
 //echo json_encode($search);
 
 //Carrega um usuário usando o login e a senha (deve ser válido)
-$usuario = new Usuario();
-$usuario->login("root", "45678");
-echo $usuario;
+//$usuario = new Usuario();
+//$usuario->login("root", "45678");
+//echo $usuario;
 
+//Inserindo registro no BD através de procedure no Banco, usando construtor
+//$aluno = new Usuario("aluno", "@lun0");
+//$aluno->insert();
+//echo $aluno;
 
+//Executando o Update do usuário por ID
+//$usuario = new Usuario();
+//$usuario->loadById(4);
+//$usuario->update("professor", "9999");
+//echo $usuario;
 
 ?>
